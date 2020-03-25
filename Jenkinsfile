@@ -7,7 +7,7 @@ pipeline {
  
         stage('Cloning Git') {
             steps {
-                git 'https://github.com/<your_name>/<your_repo>'
+                git 'https://github.com/gigue2022/chitchat'
             }
         }
  
